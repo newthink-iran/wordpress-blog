@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:orderingFromXml="true">
+<PreferenceCategory
+	android:title="@string/setting_title_general">
+	
+	<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="isAutoloadImage"
+        android:title="@string/setting_label_autoimg"
+        android:summary="@string/setting_sum_autoimg" />
+	
+	<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="isDeviceShake"
+        android:title="@string/setting_label_shake"
+        android:summary="@string/setting_sum_shake" />
+	
+	<com.entekhab.utils.dialogClear
+		android:title="@string/setting_label_search_history"
+		android:dialogLayout="@layout/dialog_clear"
+		android:positiveButtonText="@null"
+		android:negativeButtonText="@null" />
+	
+	</PreferenceCategory>
+</PreferenceScreen>

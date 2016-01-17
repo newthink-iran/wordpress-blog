@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    
+    <!--  no need to translate -->
+	<string name="app_name">Entekhab</string>
+    <string name="app_version">1.5.1</string>
+    <string name="blogurl">http://mehregansang.com/</string>
+    <string name="api">api</string>
+    <string name="scheme">{SCHEME}</string>
+    <string name="pkg">com.entekhab</string>
+    <string name="playurl">market://details?id=com.entekhab</string>
+    <string name="gcm_senderId"></string>
+    <string name="include">comment_count,author,url,title,type,date,thumbnail,comment_status</string>
+    
+    <!-- The options to enable / disable functions -->
+    <bool name="admob">true</bool>
+    <bool name="showTimeAgo">true</bool>
+    <bool name="showChangelog">true</bool>
+    <bool name="showImageFragment">true</bool>
+    
+    <!-- Normal Banner -->
+    <string name="ad_unit_1"></string>
+    <!-- Interstitial Ad -->
+    <string name="ad_unit_2"></string>
+     
+</resources>

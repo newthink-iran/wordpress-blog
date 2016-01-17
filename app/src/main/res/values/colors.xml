@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Main Colors of your app -->
+    <color name="primary">#332222</color>
+    <color name="primaryDark">#445555</color>
+    <color name="secondary">#334444</color>
+    <color name="txt">#FFFFFF</color> <!-- only for the actionbar -->
+    
+    <!-- do not change them -->
+    <color name="black">#2b2b2b</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#dddddd</color>
+    
+	<color name="dark_gray">#555555</color>
+    <color name="darker_gray">#383838</color> 
+	<color name="dark_white">#ECECEC</color>
+	
+	<color name="flat_green">#2ECC71</color>
+    <color name="flat_black">#34495E</color>
+    <color name="flat_blue">#3498DB</color>
+    <color name="flat_red">#E74C3C</color>    
+    
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+    
+    <!-- Material Blue -->
+    <color name="material_blue_500">#5677fc</color>
+    <color name="material_blue_600">#4e6cef</color>
+    
+</resources>

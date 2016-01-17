@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Here are some custom styles, which are not for the complete app.
+         If you want to change something which has something to do with the basic app style, 
+         take a look into the "themes.xml" -->
+    
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light">
+    	<item name="android:windowIsTranslucent">true</item>
+    	<item name="android:windowBackground">@android:color/transparent</item>
+    	<item name="android:windowContentOverlay">@null</item>
+   		<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">true</item>
+    	<item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="FullScreen" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+    </style>
+    
+    <style name="ThemeFading" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBarOverlay">true</item>
+		<item name="windowActionBar">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <!-- The new Color definitions -->
+       <item name="colorPrimary">@color/primary</item>
+       <item name="colorPrimaryDark">@color/primaryDark</item>
+       <item name="colorAccent">@color/primary</item>
+    </style>
+    
+    <style name="ActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/txt</item>
+	  	<item name="android:textColorPrimaryInverse">@color/txt</item> 
+        <item name="android:textColorSecondary">@color/txt</item>
+	    <item name="actionMenuTextColor">@color/txt</item>
+    </style>
+    
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    
+</resources>

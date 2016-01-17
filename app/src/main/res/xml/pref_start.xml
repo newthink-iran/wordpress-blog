@@ -1,0 +1,49 @@
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orderingFromXml="true">
+    
+	<Preference
+    	android:title="@string/setting_title_general"
+	    android:icon="@drawable/ic_action_settings" >
+		<intent 
+			android:action="pref_dis_general"
+			android:targetPackage="@string/pkg"
+			android:targetClass="com.entekhab.SettingsActivity" />
+	</Preference>
+	
+	<Preference
+    	android:title="@string/setting_title_notification"
+	    android:icon="@drawable/ic_action_volume_on"> 
+		<intent 
+			android:action="pref_dis_notification"
+			android:targetPackage="@string/pkg"
+			android:targetClass="com.entekhab.SettingsActivity" />
+	</Preference>
+	
+	<Preference
+		android:title="@string/setting_title_rate_me"
+	    android:icon="@drawable/ic_action_favorite"> 
+		<intent
+			android:action="android.intent.action.VIEW"
+			android:data="@string/playurl" />
+	</Preference>
+	
+	<Preference
+    	android:title="@string/setting_title_about"
+	    android:icon="@drawable/ic_action_about"> 
+		<intent 
+			android:action="pref_dis_info"
+			android:targetPackage="@string/pkg"
+			android:targetClass="com.entekhab.SettingsActivity" />
+	</Preference>
+	
+	<Preference
+    	android:title="@string/setting_title_links"
+		android:icon="@drawable/ic_action_links"> 
+		<intent 
+			android:action="pref_dis_links"
+			android:targetPackage="@string/pkg"
+			android:targetClass="com.entekhab.SettingsActivity" />
+	</Preference>
+	
+</PreferenceScreen>

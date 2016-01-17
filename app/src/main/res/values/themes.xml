@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Here are the styles for the toolbar and ActionBar. If you need other styles, add them to
+    	 to the "styles.xml" -->
+    <style name="BaseTheme" parent="CustomActionBar">
+        
+    </style>
+    
+    <style name="CustomActionBar" parent="Theme.AppCompat.Light">
+       <item name="windowActionBar">false</item>
+       <item name="android:windowNoTitle">true</item>
+       
+       <!-- The new Color definitions -->
+       <item name="colorPrimary">@color/primary</item>
+       <item name="colorPrimaryDark">@color/primaryDark</item>
+       <item name="colorAccent">@color/primary</item>
+    </style>
+    
+    <style name="CustomToolbar" parent="Theme.AppCompat">
+       <item name="android:textColorPrimary">@color/txt</item>
+	   <item name="android:textColorPrimaryInverse">@color/txt</item> 
+       <item name="android:textColorSecondary">@color/txt</item>
+	   <item name="actionMenuTextColor">@color/txt</item>
+       <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/txt</item>
+    </style>
+    
+    <style name="CustomTabPageIndicator" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:textColor">@color/txt</item>
+    </style>
+    
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/txt</item>
+        <item name="android:textColorHint">@color/txt</item>
+    </style>
+    
+</resources>

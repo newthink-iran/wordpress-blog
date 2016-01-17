@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/swipe_container" >
+
+        <ScrollView
+            android:id="@+id/main_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/gray"
+            android:paddingBottom="5dp" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/page_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="30sp" />
+
+                <WebView
+                    android:id="@+id/page_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="-5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_cards" />
+
+                <TextView
+                    android:id="@+id/page_title_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/categories"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <com.entekhab.utils.ExpandableHeightGridView
+                    android:id="@+id/grid_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="20dp"
+                    android:isScrollContainer="false"
+                    android:numColumns="3"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="20dp" >
+                </com.entekhab.utils.ExpandableHeightGridView>
+
+                <TextView
+                    android:id="@+id/page_title_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/tags"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <com.entekhab.utils.ExpandableHeightGridView
+                    android:id="@+id/grid_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="20dp"
+                    android:isScrollContainer="false"
+                    android:numColumns="4"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/adLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+   </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:id="@+id/fullvideo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</FrameLayout>
