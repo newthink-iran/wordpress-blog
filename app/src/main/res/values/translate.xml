@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources translatable="false">
-    <string name="dateformat">d. M Y, H:i</string>
-    
+    <string name="dateformat">d M Y</string>
+
     <!-- other strings -->
-    <string name="version">Version</string>
-    <string name="wait">Please wait ...</string>
-    <string name="random">Loading Random Post...</string>
-    <string name="article">Article</string>
-    <string name="articles">Articles</string>
-    <string name="tags">Tags</string>
-    <string name="categories">Categories</string>
-    <string name="comments">Comments</string>
-    <string name="writecomment">Write Comment</string>
-    <string name="no_search_result">Sorry, no search result</string>
-    <string name="no_image">No images, sorry</string>
-    <string name="no_comment">No comments yet, sorry</string>
-    <string name="coms_closed">Comments closed!</string>
-    <string name="search_result_1">Your search has </string>
-    <string name="search_result_2"> results</string>
-    <string name="do_search">search ...</string>
-    <string name="drawer_open">Menu open</string>
-    <string name="drawer_close">Menu close</string>
-    
-    
+    <string name="version">ورژن</string>
+    <string name="wait">لطفا صبر کنید..</string>
+    <string name="random">در حال بارگذاری پست تصادفی..</string>
+    <string name="article">نوشته</string>
+    <string name="articles">نوشته ها</string>
+    <string name="tags">برچسب ها</string>
+    <string name="categories">دسته ها</string>
+    <string name="comments">نظرات</string>
+    <string name="writecomment">نوشتن نظر</string>
+    <string name="no_search_result">متاسفانه چیزی یافت نشد</string>
+    <string name="no_image">تصویری یافت نشد</string>
+    <string name="no_comment">هنوز نظری ثبت نشده است</string>
+    <string name="coms_closed">نظرات بسته است</string>
+    <string name="search_result_1">جستجوی شما </string>
+    <string name="search_result_2"> نتیجه</string>
+    <string name="do_search">جستجو ...</string>
+    <string name="drawer_open">منو باز</string>
+    <string name="drawer_close">منو بسته</string>
+
+
     <!-- Text strings -->
-    <string name="dialog_inernet_title">No Internet connection!</string>
-    <string name="dialog_internet_content">Can\'t connect to the Internet. Please check connection!</string>
-    <string name="dialog_clear_content">This will delete your search history. Can\'t be undone!</string>
-    <string name="msg_last_page">Last Page, no more Posts!</string>
-    <string name="msg_fav_added">Post added to Bookmarks!</string>
-    <string name="msg_fav_removed">Post removed from Bookmarks!</string>
-    <string name="msg_no_bookmarks">No Bookmarks yet,\nGo and add you first Bookmark!</string>
-    <string name="msg_new_post">New Post: </string>
-    <string name="msg_post_update"> was updated</string>
-    
+    <string name="dialog_inernet_title">اینترنت گوشی شما وصل نیست</string>
+    <string name="dialog_internet_content">اینترنت گوشی شما وصل نیست</string>
+    <string name="dialog_clear_content">کلیه تاریخچه جستجوها پاک خواهد شد</string>
+    <string name="msg_last_page">صفحه آخر. مطلب دیگری موجود نیست</string>
+    <string name="msg_fav_added">مطلب به علاقه مندی ها اضافه شد</string>
+    <string name="msg_fav_removed">مطلب از لیست علاقه مندی ها حذف شد</string>
+    <string name="msg_no_bookmarks">هنوز علاقه مندی وجود ندارد</string>
+    <string name="msg_new_post">نوشته جدید:</string>
+    <string name="msg_post_update"> بروز رسانی شده</string>
+
     <!-- Buttons labels -->
-    <string name="btn_close">Close</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_repeat">try again!</string>
-    <string name="btn_no">No</string>
-    <string name="btn_cancel">Cancel</string>
-    <string name="btn_send">send it!</string>
-    <string name="btn_more">load more</string>
+    <string name="btn_close">بستن</string>
+    <string name="btn_ok">قبول</string>
+    <string name="btn_repeat">مجددا تلاش کنید</string>
+    <string name="btn_no">خیر</string>
+    <string name="btn_cancel">لغو</string>
+    <string name="btn_send">ارسال کن</string>
+    <string name="btn_more">نمایش بیشتر</string>
 
     <!-- Activity Names and ActionBar titles -->
-    <string name="title_recent_posts">Recent Posts</string>
-    <string name="title_category_list">Category List</string>
-    <string name="title_category">Category: </string>
-    <string name="title_search">Search: </string>
-    <string name="title_tag">Tag: </string>
-    <string name="title_bookmark_posts">Bookmarked Posts</string>
-    <string name="title_gcm_alert">Message received</string>
-    <string name="title_notificationbar">Notification</string>
-    <string name="title_images">Images</string>
-    <string name="title_settings">Settings</string>
-    
-    
+    <string name="title_recent_posts">نوشته های جدید</string>
+    <string name="title_category_list">لیست دسته ها</string>
+    <string name="title_category">دسته: </string>
+    <string name="title_search">جستجو: </string>
+    <string name="title_tag">برچسب: </string>
+    <string name="title_bookmark_posts">نوشته های مورد علاقه</string>
+    <string name="title_gcm_alert">پیام دریافت شد</string>
+    <string name="title_notificationbar">اطلاع رسانی ها</string>
+    <string name="title_images">تصاویر</string>
+    <string name="title_settings">تنظیمات</string>
+
+
     <!-- Sliding Menu related Strings -->
     <string-array name="menu">
-        <item>Latest Posts</item>
-        <item>Categories</item>
-        <item>Page</item>
-        <item>Bookmarks</item>
-        <item>Settings</item>
+        <item>تازه ترین نوشته ها</item>
+        <item>دسته ها</item>
+        <item>صفحه</item>
+        <item>علاقه مندی ها</item>
+        <item>تنظیمات</item>
     </string-array>
-    
+
     <!-- Tabs Names -->
     <string-array name="tabs">
-        <item>Post</item>
-        <item>Images</item>
-        <item>Comments</item>
-        <item>New Comment</item>
+        <item>نوشته</item>
+        <item>تصاویر</item>
+        <item>نظرات</item>
+        <item>نظر جدید</item>
     </string-array>
     <!-- Tabs without images -->
     <string-array name="tabs2">
-        <item>Post</item>
-        <item>Comments</item>
-        <item>New Comment</item>
+        <item>نوشته</item>
+        <item>نظرات</item>
+        <item>نظر جدید</item>
     </string-array>
-    
-    
+
+
     <!-- Settings related Strings -->
-    <string name="setting_title_start">Settings</string>
-    <string name="setting_title_general">General</string>
-    <string name="setting_title_notification">Notification</string>
-    <string name="setting_title_rate_me">Rate Me!</string>
-    <string name="setting_title_about">About</string>
-    <string name="setting_title_links">Links</string>
-    <string name="setting_label_update">Update check</string>
-    <string name="setting_label_autoimg">Autoload Images</string>
-    <string name="setting_label_shake">Shake to load random Post</string>
-    <string name="setting_label_search_history">Delete search history</string>
-    <string name="setting_label_changelog">Changelog</string>
-    <string name="setting_label_appversion">App version</string>
+    <string name="setting_title_start">تنظیمات</string>
+    <string name="setting_title_general">عمومی</string>
+    <string name="setting_title_notification">اطلاع رسانی</string>
+    <string name="setting_title_rate_me">امتیاز بده</string>
+    <string name="setting_title_about">درباره ما</string>
+    <string name="setting_title_links">پیوندها</string>
+    <string name="setting_label_update">بررسی بروزرسانی</string>
+    <string name="setting_label_autoimg">بارگذاری خودکار تصاویر</string>
+    <string name="setting_label_shake">برای نمایش نوشته تصادفی گوشی خود را تکان دهید</string>
+    <string name="setting_label_search_history">حذف تاریخچه جستجوها</string>
+    <string name="setting_label_changelog">تغییرات</string>
+    <string name="setting_label_appversion">ورژن برنامه</string>
     <string name="setting_label_osl">Open Source Licenses</string>
-    <string name="setting_label_vibrate">Vibrate</string>
-    <string name="setting_label_ringtone">Ringtone</string>
-    <string name="setting_label_notifications">Notifications</string>
-    <string name="setting_sum_silent">Silent</string>
-    <string name="setting_sum_autoimg">Download media (images) when using mobile daat connection</string>
-    <string name="setting_sum_shake">Activate to load random post when shaking your device</string>
-    
-    
+    <string name="setting_label_vibrate">لرزیدن</string>
+    <string name="setting_label_ringtone">صدای زنگ اطلاع رسانی</string>
+    <string name="setting_label_notifications">اطلاع رسانی ها</string>
+    <string name="setting_sum_silent">سکوت</string>
+    <string name="setting_sum_autoimg">دانلود تصاویر نوشته ها</string>
+    <string name="setting_sum_shake">فعال سازی این گزینه باعث می شود هنگامی که گوشی خود را تکان می دهید، یک نوشته تصادفی بارگذاری شود</string>
+
+
     <!-- Action related Strings -->
-    <string name="action_settings">Settings</string>
-    <string name="action_refresh">Refresh</string>
-    <string name="action_share">Share it!</string>
-    <string name="action_search">Search</string>
-    <string name="action_view_online">View on website</string>
-    <string name="action_bookmark">Bookmark</string>
-    <string name="action_unbookmark">Unbookmark</string>
-     <string name="action_go_back">back to post</string>
-    
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_refresh">بروز رسانی</string>
+    <string name="action_share">اشتراک گذاری</string>
+    <string name="action_search">جستجو</string>
+    <string name="action_view_online">نمایش در وب سایت</string>
+    <string name="action_bookmark">علاقه مندی</string>
+    <string name="action_unbookmark">حذف علاقه مندی</string>
+    <string name="action_go_back">بازگشت به نوشته</string>
+
     <!-- Comment Page related -->
-    <string name="comName">Your Name</string>
-    <string name="comContent">Your comment</string>
-    <string name="comEmail">Your eMail</string>
-    <string name="comSended">Your comment was successfully sent</string>
-    <string name="comSendPending">Your Comment was sent, but needs moderation</string>
-    <string name="comNameError">invalid name</string>
-    <string name="comMailError">Please enter a valid email address</string>
-    <string name="comContentError">too short Comment</string>
-    <string name="comClosedComment">Post is closed for comments.</string>
-    <string name="comFieldError">Please fill all fields (name,email,content)</string>
-    
+    <string name="comName">نام و نام خانوادگی</string>
+    <string name="comContent">نظر شما</string>
+    <string name="comEmail">ایمیل</string>
+    <string name="comSended">نظر شما با موفقیت ثبت شد</string>
+    <string name="comSendPending">نظر شما ارسال شد، ولی کمی صبور باشید</string>
+    <string name="comNameError">نام معتبر نیست</string>
+    <string name="comMailError">لطفا یک ایمیل معتبر وارد نمایید</string>
+    <string name="comContentError">نظر خیلی کوتاه است</string>
+    <string name="comClosedComment">ثبت نظر برای این نوشته مقدور نیست</string>
+    <string name="comFieldError">لطفا همه فیلدهای لازم را پر کنید</string>
+
 </resources>
